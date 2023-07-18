@@ -2,7 +2,7 @@ import React from "react";
 import {BsArrowRightShort} from "react-icons/bs"
 const Button = ({
   color,
-  link = "/",
+  link = "https://forms.gle/Sgt9szvuvqYZjM9k9",
   text = "Join Us Today",
 }: {
   color: "b" | "w";

@@ -1,6 +1,5 @@
-import Image from "next/image";
+
 import Link from "next/link";
-import logo from "@/public/images/logo.svg"
 import { Icons } from "@/components/icons/icons";
 const linksFooter: { label: string; url: string }[] = [
   {
@@ -65,7 +64,7 @@ export default function Footer() {
           </h1>
           <Link
             className="flex items-center gap-2 font-gilroy text-zinc-200"
-            href="mailto:sappiah5689@gmail.com"
+            href="mailto:nikasainternationalschool@gmail.com"
           >
             <svg
               width="22"
@@ -104,7 +103,7 @@ export default function Footer() {
                 />
               </g>
             </svg>
-            deutscheinternationalschool@gmail.com
+            nikasainternationalschool@gmail.com
           </Link>
           <Link
             className="flex items-center gap-2 font-gilroy text-zinc-200"
@@ -124,7 +123,7 @@ export default function Footer() {
                 fill="white"
               />
             </svg>
-            +233245679328
+            +233-594-40-0920
           </Link>
           <span className="flex items-center gap-2 font-gilroy text-zinc-200">
             <svg
@@ -195,8 +194,8 @@ export default function Footer() {
       </span>
       <span className="flex flex-wrap gap-6 justify-between p-7">
         <span className="font-gilroy  text-zinc-200">
-          © 2023 <span className="italic">nikasainternationalschool</span>
-          . All rights reserved. Designed and developed by Degriti
+          © 2023 <span className="italic">nikasainternationalschool</span>. All
+          rights reserved.Designed and developed by Nicholas Kofi Osei, 10893143
         </span>
         <span className="flex flex-wrap gap-4">
           <Link className="font-gilroy text-zinc-200" href={"/"}>
